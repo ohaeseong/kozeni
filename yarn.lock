@@ -7413,17 +7413,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-string-regexp@npm:2.0.0, escape-string-regexp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "escape-string-regexp@npm:2.0.0"
+  checksum: 10c0/2530479fe8db57eace5e8646c9c2a9c80fa279614986d16dcc6bcaceb63ae77f05a851ba6c43756d816c61d7f4534baf56e3c705e3e0d884818a46808811c507
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.3, escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 10c0/a968ad453dd0c2724e14a4f20e177aaf32bb384ab41b674a8454afe9a41c5e6fe8903323e0a1052f56289d04bd600f81278edf140b0fcc02f5cac98d0f5b5371
-  languageName: node
-  linkType: hard
-
-"escape-string-regexp@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "escape-string-regexp@npm:2.0.0"
-  checksum: 10c0/2530479fe8db57eace5e8646c9c2a9c80fa279614986d16dcc6bcaceb63ae77f05a851ba6c43756d816c61d7f4534baf56e3c705e3e0d884818a46808811c507
   languageName: node
   linkType: hard
 
@@ -9626,7 +9626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"invariant@npm:^2.2.4":
+"invariant@npm:2.2.4, invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
   dependencies:
@@ -12256,6 +12256,7 @@ __metadata:
     react-native-safe-area-context: "npm:4.10.5"
     react-native-screens: "npm:3.31.1"
     react-native-web: "npm:~0.19.10"
+    react-native-webview: "npm:13.8.6"
     react-test-renderer: "npm:18.2.0"
     tailwindcss: "npm:3.3.2"
     typescript: "npm:~5.3.3"
@@ -14137,6 +14138,19 @@ __metadata:
     react: ^18.0.0
     react-dom: ^18.0.0
   checksum: 10c0/90f4221cebd834d550c477b00e5f972f8e3afbbea6708f8346fc394a38c8589a5d87d5e8be37a0ac421cc5e8a898cd94e0a6e6b2db982d3164e011f7ac9581da
+  languageName: node
+  linkType: hard
+
+"react-native-webview@npm:13.8.6":
+  version: 13.8.6
+  resolution: "react-native-webview@npm:13.8.6"
+  dependencies:
+    escape-string-regexp: "npm:2.0.0"
+    invariant: "npm:2.2.4"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/441e13d145fe2783a6ecc3d3b90673fc9f26c7d0a9051c8fc603c925a94c0a5ee4a5a172aa80bcdc1c07d2f33a2fe17cccebc00ea3b142f5fd7558a139496a92
   languageName: node
   linkType: hard
 
