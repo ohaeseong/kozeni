@@ -1,6 +1,6 @@
 "use client";
 import classNames from "classnames";
-import Image from "next/image";
+
 import { ReactNode } from "react";
 
 interface ButtonProps {
@@ -27,9 +27,8 @@ export const Button = ({
       onClick={onClick}
     >
       {!!imageURL && (
-        <Image src={imageURL} width={20} height={20} alt={imageURL} />
+        <img src={imageURL} width={20} height={20} alt={imageURL} />
       )}
-
       <span className="text-sm capitalize">{content}</span>
     </button>
   );
