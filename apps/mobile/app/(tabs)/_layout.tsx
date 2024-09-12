@@ -13,6 +13,17 @@ export default function TabLayout() {
           ),
         }}
       />
+
+      <Tabs.Screen
+        name="review"
+        options={{
+          title: "Review",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome size={28} name="flag" color={color} />
+          ),
+        }}
+      />
+
       <Tabs.Screen
         name="profile"
         options={{

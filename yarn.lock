@@ -1750,6 +1750,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@googlemaps/js-api-loader@npm:1.16.2":
+  version: 1.16.2
+  resolution: "@googlemaps/js-api-loader@npm:1.16.2"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.3"
+  checksum: 10c0/aa4e7474f1a379a9e530c514061ec2c7d5409b8652f186873e0a0772fc4194db08d2793f12277560206642b8f7255a4df9f12358aca2bb3b279bdf8ed3e3f11c
+  languageName: node
+  linkType: hard
+
+"@googlemaps/markerclusterer@npm:2.5.3":
+  version: 2.5.3
+  resolution: "@googlemaps/markerclusterer@npm:2.5.3"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.3"
+    supercluster: "npm:^8.0.1"
+  checksum: 10c0/29954c8ad97f7cf0383dc5d4e1d04de4844cc527865cb3a75b73672f29e3087eb0a8a2a594fa75d968f6c40bc90f44ffbf0b1a478e7353eb81361aeff61c2602
+  languageName: node
+  linkType: hard
+
 "@graphql-typed-document-node/core@npm:^3.1.0":
   version: 3.2.0
   resolution: "@graphql-typed-document-node/core@npm:3.2.0"
@@ -2568,6 +2587,37 @@ __metadata:
   peerDependencies:
     react: ^16.8 || ^17.0 || ^18.0
   checksum: 10c0/5d6c3fe567dec7ac55a581e1fe6a5a5a4bdde32cf17bf022ebe3f96bae3b274ba02ddaa1028ba8413ab4088bd1fca23479de8739cf42eea73e5ce02ee3e8bb70
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/api@npm:^2.19.3":
+  version: 2.19.3
+  resolution: "@react-google-maps/api@npm:2.19.3"
+  dependencies:
+    "@googlemaps/js-api-loader": "npm:1.16.2"
+    "@googlemaps/markerclusterer": "npm:2.5.3"
+    "@react-google-maps/infobox": "npm:2.19.2"
+    "@react-google-maps/marker-clusterer": "npm:2.19.2"
+    "@types/google.maps": "npm:3.55.2"
+    invariant: "npm:2.2.4"
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18
+    react-dom: ^16.8 || ^17 || ^18
+  checksum: 10c0/185b53f912810f612eceeff64f6d342a4270d33a209049a8e53d1053e15eba229b496f824b7bf5e94057f4de5bf403de930a68b73761916b1503549958068058
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/infobox@npm:2.19.2":
+  version: 2.19.2
+  resolution: "@react-google-maps/infobox@npm:2.19.2"
+  checksum: 10c0/c0b7d91b85ead498d84e210f686801b5f6f47a9c4f460e27196f57dff11b28fd3f4f3e4178ff17dd3942c3199f7defa4b5deef552d9f2b88786f7e285bc398fc
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/marker-clusterer@npm:2.19.2":
+  version: 2.19.2
+  resolution: "@react-google-maps/marker-clusterer@npm:2.19.2"
+  checksum: 10c0/a89cf3a2d110f34e017b503985695b45eeb21956c58bada81dddf102460d150b074832f387741d2de77ba35d81d67b1468614204c29ad8d00efd15545112cbe4
   languageName: node
   linkType: hard
 
@@ -3531,6 +3581,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/google.maps@npm:3.55.2":
+  version: 3.55.2
+  resolution: "@types/google.maps@npm:3.55.2"
+  checksum: 10c0/29a1ff2750960f951697bfd6604aade285ee5891f534e593dcd4efbebe3eb5f9c7e1d3305623452083a37d7d8cb512c5eb3890cc1738ebd4fc96706b9f7bc703
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.3":
   version: 4.1.9
   resolution: "@types/graceful-fs@npm:4.1.9"
@@ -3793,16 +3850,6 @@ __metadata:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/548b1d3d7c2f0242fbfdbbd658731b4ce69a134be072fa83e6ab516f2840402a3f20e3e7f72e95133b23d4880ef24a6d864050dc8e1f7c68f39fa87ca8445917
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:~18.2.45":
-  version: 18.2.79
-  resolution: "@types/react@npm:18.2.79"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/c8a8a005d8830a48cc1ef93c3510c4935a2a03e5557dbecaa8f1038450cbfcb18eb206fa7fba7077d54b8da21faeb25577e897a333392770a7797f625b62c78a
   languageName: node
   linkType: hard
 
@@ -11163,6 +11210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kdbush@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "kdbush@npm:4.0.2"
+  checksum: 10c0/d50183b299c57e2573114e902ab47aed7494be3ca41b66d456779ecc3b2f153f491de341f9609965414784f728894f9a9001152eb9f3a40cd3755521c06a45a3
+  languageName: node
+  linkType: hard
+
 "keyv@npm:^4.5.3":
   version: 4.5.4
   resolution: "keyv@npm:4.5.4"
@@ -12232,7 +12286,7 @@ __metadata:
     "@expo/vector-icons": "npm:^14.0.2"
     "@react-navigation/native": "npm:^6.0.2"
     "@types/jest": "npm:^29.5.12"
-    "@types/react": "npm:~18.2.45"
+    "@types/react": "npm:^18"
     "@types/react-test-renderer": "npm:^18.0.7"
     autoprefixer: "npm:^10.4.20"
     expo: "npm:~51.0.28"
@@ -12248,8 +12302,8 @@ __metadata:
     jest-expo: "npm:~51.0.3"
     nativewind: "npm:^2.0.11"
     postcss: "npm:^8.4.44"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:18.3.1"
+    react-dom: "npm:18.3.1"
     react-native: "npm:0.74.5"
     react-native-gesture-handler: "npm:~2.16.1"
     react-native-reanimated: "npm:~3.10.1"
@@ -12259,7 +12313,7 @@ __metadata:
     react-native-webview: "npm:13.8.6"
     react-test-renderer: "npm:18.2.0"
     tailwindcss: "npm:3.3.2"
-    typescript: "npm:~5.3.3"
+    typescript: "npm:^5.1.3"
   languageName: unknown
   linkType: soft
 
@@ -13989,18 +14043,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react-dom@npm:18.2.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.0"
-  peerDependencies:
-    react: ^18.2.0
-  checksum: 10c0/66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -14236,15 +14278,6 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 10c0/53dfada1da1e8dd0498a5601e9eea3dc6ca23c6c2694d1cab9712faea869c11e4ce1c9a618d674cb668a668b41fb6bcf9a7b0a078cd853b1922f002fa22f42c8
-  languageName: node
-  linkType: hard
-
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
   languageName: node
   linkType: hard
 
@@ -15799,6 +15832,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"supercluster@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "supercluster@npm:8.0.1"
+  dependencies:
+    kdbush: "npm:^4.0.2"
+  checksum: 10c0/79121e6dbff67b3036ea6651f3baddb942478830ba3ecbc27455715ab5bd269de8381dc04618c0c15963346ea2ed0f81cd5f767c2978a63e2841807c73445d57
+  languageName: node
+  linkType: hard
+
 "supertest@npm:^6.3.3":
   version: 6.3.4
   resolution: "supertest@npm:6.3.4"
@@ -16731,7 +16773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.3.3, typescript@npm:~5.3.3":
+"typescript@npm:5.3.3":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
   bin:
@@ -16741,7 +16783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5, typescript@npm:^5.1.3, typescript@npm:^5.3.3, typescript@npm:^5.4.5":
+"typescript@npm:^5.1.3, typescript@npm:^5.3.3, typescript@npm:^5.4.5":
   version: 5.5.4
   resolution: "typescript@npm:5.5.4"
   bin:
@@ -16751,7 +16793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A~5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
@@ -16761,7 +16803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.1.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.1.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>":
   version: 5.5.4
   resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
@@ -17234,6 +17276,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/web"
   dependencies:
+    "@react-google-maps/api": "npm:^2.19.3"
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
     "@repo/ui": "npm:*"
@@ -17250,7 +17293,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     tailwindcss: "npm:^3.4.10"
-    typescript: "npm:^5"
+    typescript: "npm:^5.1.3"
   languageName: unknown
   linkType: soft
 
