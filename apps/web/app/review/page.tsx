@@ -1,3 +1,10 @@
+import Map from "../../components/Map";
+import MapProvider from "../../provider/map-provider";
+
 export default function Home() {
-  return <div className="flex h-full w-full border"></div>;
+  return (
+    <MapProvider>
+      <Map />
+    </MapProvider>
+  );
 }
