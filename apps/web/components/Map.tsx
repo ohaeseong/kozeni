@@ -1,9 +1,10 @@
 "use client";
 import { GoogleMap } from "@react-google-maps/api";
+import classNames from "classnames";
 
 const defaultMapCenter = {
-  lat: 35.8799866,
-  lng: 76.5048004,
+  lat: 37.547623,
+  lng: 126.993439,
 };
 
 const defaultMapOptions = {
@@ -18,13 +19,18 @@ const defaultMapOptions = {
 
 const defaultMapContainerStyle = {
   width: "100%",
-  height: "80vh",
+  height: "50vh",
   borderRadius: "15px 0px 0px 15px",
 };
 
-export default function Map({}: {}) {
+interface Props {
+  className?: string;
+  defaultCountry?: "kr" | "jp";
+}
+
+export default function Map({ className }: Props) {
   return (
-    <div>
+    <div className={classNames("", className)}>
       <GoogleMap
         mapContainerStyle={defaultMapContainerStyle}
         center={defaultMapCenter}
