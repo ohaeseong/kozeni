@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <header className="flex h-14 w-full flex-col">
+    <header className="flex w-full flex-col p-2">
       <SearchBar />
       <Filter />
     </header>
